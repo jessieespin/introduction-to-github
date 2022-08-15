@@ -1,3 +1,11 @@
+name: Post welcome comment
+on:
+  pull_request:
+    types: [opened]
+    
+
+
+
 name: Step 1, Create a workflow
 
 # This step triggers after every push to emoji-workflow
